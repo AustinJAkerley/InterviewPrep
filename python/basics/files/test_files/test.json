@@ -1,0 +1,19 @@
+{
+    "Ford": [
+        "Mustang",
+        "F150",
+        "F250",
+        "Taurus"
+    ],
+    "Chevy": [
+        "Volt",
+        "Camero",
+        "Silverado"
+    ],
+    "Dodge":[
+        "Charger",
+        "Viper",
+        "Ram 1500",
+        "Ram 3500"
+    ]
+}
