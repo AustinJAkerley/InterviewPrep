@@ -1,0 +1,84 @@
+Security is:
+ - Auth
+ - Input validation/sanitation
+ - Cryptography - Enc,Dec, Cert, Sigs
+ - Bot detetction
+ - Rate limiting
+ - Data security
+ - Least privledge practices
+ - JIT
+ - Application bugs that prevent the service from operating
+
+
+Stay relevant:
+ - Sub reddits
+ - Youtube videos - Primeagen, tech W/ Tim, T3 guy
+ - Confrences
+ - CVE publications
+ - News and articles
+
+
+
+
+Python:
+from collections import Counter -> Creates a dictonary from a list with number of occurences as the value and the element as the key
+built in max() and min() functions
+character function .isalnum()
+string reversal s[::-1]
+
+
+Potential Stories:
+ - Dataplane proxy memory leak, deployed to 30+ geographical regions, and it was a memory time bomb. Had to manually coordinate rollbacks to prevent hosts from running out of memory. 
+ The others did not see the urgency, but I had the insight into the data projection and time to deploy for our distrubted system.
+
+ - Alarm runbook tool. Came from an ask to fix any alarms that had no runbook, or had a runbook linked but had issues. 
+ Used internal CLI tools to fetch the information programmatically and perform what would have been days of manual validation.
+ After we used it for our service team we generalized it o work for every service at OCI. The tech writing team claimed that it would likely replace the work of 2 fulltime < L2 employees for them.
+
+ - Firmware upgrade. Supplied HSM cards from Marvell, and it entailed the deprecation and usage of new APIs for things such as import keys, initialization and usage of authorized HSM users.
+ Changes in build to accomedate multiple firmwares and eventually multiple suppliers. Creating an adapter for a distributed system using the old and new FW.
+ The careful handling of C++ data structures and type conversions. Valgrind and the improvement of the service's existing mem leaks. Creation and update of low-lvl tests.
+
+ - Load balancer connection limits, recently our service saw a spike in TCP connections from the ususal 5,000 per host to 350K per hosts that caused an outage.
+ This spike was not malicous it was a misuse of the service by an external customer heavily using another services provided by OCI that used our tier-0 service.
+ This led to failure due to the thread max thread usage being overloaded. We also observed the java GC spike and limit and caused service level issues.
+ I was able to create the new advised LB max connections setting and alarms for the LB level for connection counts.
+
+ - Post-quantum: Setting up new revision of Marvell HSM modules in a dev environment and modifying our HSM code to use and adapt to these new APIs from the cards.
+ Leveraging the work on the FW change that I made previously. While doing the impl. we are simutaneously during security testing on the input/outputs and storage of information.
+
+ -LM Space- NID with QoS, In/Out Bound FW, segmentation, de-seg, endian flipping, etc...
+
+
+ - LM Space Python tool. Generation of JSON NID configs using python automation and parameter creation. Generation of packets to test those configurations.
+ Creating expected results and comparing the actual results from netstatting the device metrics. Sieving out any neighbor discovery packets.
+ Creating these to validate the written test suites, and cases. As feature development continued, so did our tests.
+
+
+Questions:
+- From the job req title Python Software Engineer - Security I was curious about how our team would be using python for security?
+
+- What's the model of the security team at Nvidia, are you partnered with a product team in an embedded style?
+
+- As Nvidia's market cap sales past the GDP of the entire nation of Canada, do you feel the company is going to be able to provide value as revolutionary as the internet with AI?
+
+- What's an interesting project or problem you've been able to work on at Nvidia and what made it different from the other top 5 tech companies?
+
+- Where does the Nvidia culture fall on the spectrum of culture from a YC startup to say a defense company in your opinion?
+
+- Would I be on the team that you are currently in or does the interviewer at Nvidia possibly work on a different team?
+
+- If so, out of your top performing co-workers what are some habits or skills they display that you respect or have tried to adopt?
+
+- The job req mentions a few locations do you work on-site at one of those particular locations, and with the company emphasizing remote, do you or your coworkers work remotely?
+
+
+Focus on protecting our data.
+
+
+
+Potential Answers:
+ - At LM Space outside of work I convinced 2 co-workers to use the extra FPGa we had laying around to implement Lentra's algorithm in the most parrallel way possible
+ and try to see what the largest prime-product we could factor would be. While other people went home and played video games, I was genuinely interested in the tools around me
+ and was able to create a cool side project with my co-workers and freinds.
+

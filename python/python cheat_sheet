@@ -1,0 +1,24 @@
+# 1. Length of objects: len(object) -> int
+
+# 2. False | True
+
+# 3. Counters: Creates key value map whre the key is the object and the value is the number of occurences
+# from collections import Counter
+# str s
+# sCount = Counter(s) 
+# Compare
+# if sCount == tCount
+
+# 4. Key Value Maps: 
+# myKeyValueMap = {}
+# myKeyValueMap[potentialKey] | myKeyValueMap.get(potentialKey, defaulValue)
+# myKeyValueMap.update({key:value})
+# myKeyValueMap.keys()
+# myKeyValueMap.values()
+
+# 5. Sets
+# numSet = set(nums) # nums is a list of nums
+# numSet.add(ele)
+# numSet.remove(ele)
+# numset.pop() # Removes the last ele in set
+# 
