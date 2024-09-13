@@ -1,0 +1,32 @@
+1. Length of Objects (Size): 
+   Use .size() to get the length of vectors or strings.
+
+2. Boolean Operations: 
+   || is used for logical OR, && for logical AND.
+
+3. Maps (unordered_map): 
+   Declare an unordered map using unordered_map<key_type, value_type>.
+   Use square brackets [] to insert and retrieve values.
+   To check if your key exists do the folloiwng:
+   if (myMap.find(key) != myMap.end()) {
+
+
+4. Sets (unordered_set): 
+   Use insert() to add an element.
+   Use erase() to remove an element.
+   Use .count() to check if an element exists.
+
+5. Vectors (Dynamic Arrays): 
+   Declare vectors using vector<type>.
+   Use .push_back() to append elements.
+   Use .pop_back() to remove the last element.
+
+6. Sorting: 
+   Use sort(begin, end) from <algorithm> to sort vectors in place.
+
+7. Imports
+Examples:
+#include <unordered_map>
+#include <string>
+#include <vector>
+using namespace std;

@@ -22,3 +22,11 @@
 # numSet.remove(ele)
 # numset.pop() # Removes the last ele in set
 # 
+
+6. List Operations: 
+   Append to a list with .append().
+   Use .pop() to remove the last element.
+   .sort() to sort the list in place, and .reverse() to reverse it.
+
+7. Sorting: 
+   Use sorted() for a new sorted list, or .sort() to sort in place.

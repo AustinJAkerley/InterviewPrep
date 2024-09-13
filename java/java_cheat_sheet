@@ -1,0 +1,24 @@
+1. Length of Objects: 
+   Use .length() for strings and arrays.
+
+2. Boolean Operations: 
+   || is used for logical OR, && for logical AND.
+
+3. HashMaps (Key-Value Maps): 
+   Declare a HashMap using HashMap<KeyType, ValueType>.
+   Use .put() to insert key-value pairs.
+   Use .getOrDefault() to retrieve a value with a default option.
+
+4. HashSet (Sets): 
+   Declare a HashSet using HashSet<Type>.
+   Use .add() to add an element.
+   Use .remove() to remove an element.
+   Use .contains() to check if an element exists.
+
+5. ArrayList (Dynamic Arrays): 
+   Declare an ArrayList using ArrayList<Type>.
+   Use .add() to append elements.
+   Use .remove(index) to remove an element.
+
+6. Sorting: 
+   Use Collections.sort() to sort an ArrayList in place.
