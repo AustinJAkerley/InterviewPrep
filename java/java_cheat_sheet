@@ -1,5 +1,7 @@
 1. Length of Objects: 
-   Use .length() for strings and arrays.
+   Use .length() for strings
+   Use .length for arrays
+   Use .size() for collections
 
 2. Boolean Operations: 
    || is used for logical OR, && for logical AND.
