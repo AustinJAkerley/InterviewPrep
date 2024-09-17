@@ -10,6 +10,15 @@
    To check if your key exists do the folloiwng:
    if (myMap.find(key) != myMap.end()) {
 
+   Map access is a ref, perform operations on it
+   // Directly push the string into the corresponding vector in the map
+   anagram_groups[sorted_s].push_back(strs[i]);
+
+   Getting Keys/Values
+   for (auto x : umap) 
+    cout << x.first << " " <<  x.second << endl; 
+
+
 
 4. Sets (unordered_set): 
    Use insert() to add an element.

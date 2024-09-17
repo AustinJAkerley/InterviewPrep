@@ -19,8 +19,16 @@
 
 5. ArrayList (Dynamic Arrays): 
    Declare an ArrayList using ArrayList<Type>.
+   Use ArrayList<> instead of List<> to instantiate an object.
+   EX: return new ArrayList<>(anagram_groups.values()); // Works
+   NOTTT return new List <>(anagram_groups.values()); // FAILS!
+   Instantiate an empty list: new ArrayList<>()
    Use .add() to append elements.
    Use .remove(index) to remove an element.
 
 6. Sorting: 
    Use Collections.sort() to sort an ArrayList in place.
+   Sort a string:
+   char[] c = str.toCharArray();
+   Arrays.sort(c);
+   String sorted_str = new String(c);
