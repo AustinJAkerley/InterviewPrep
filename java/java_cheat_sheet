@@ -22,7 +22,10 @@
    Use ArrayList<> instead of List<> to instantiate an object.
    EX: return new ArrayList<>(anagram_groups.values()); // Works
    NOTTT return new List <>(anagram_groups.values()); // FAILS!
+   
    Instantiate an empty list: new ArrayList<>()
+   List<String> strs = new ArrayList<>();
+   Use .get(index) to get an element in the list
    Use .add() to append elements.
    Use .remove(index) to remove an element.
 
@@ -32,3 +35,14 @@
    char[] c = str.toCharArray();
    Arrays.sort(c);
    String sorted_str = new String(c);
+
+7. Strings and StringBuilder
+   StringBuilder strBuilder = new StringBuilder();
+   for (String str : strs) {
+            strBuilder.append(s).append("\n");
+   }
+   return strBuilder.toString();
+   subStrBuilder.setLength(0); 
+   Same As
+   subStrBuilder = new StringBuilder();
+
