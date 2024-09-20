@@ -46,3 +46,6 @@
    Same As
    subStrBuilder = new StringBuilder();
 
+8. Arrays
+   int[] output = new int[length];
+   
