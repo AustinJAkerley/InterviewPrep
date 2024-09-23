@@ -1,3 +1,7 @@
+
+
+
+
 class Solution {
     public int[] productExceptSelf(int[] nums) 
     {
@@ -40,3 +44,35 @@ class Solution {
         return output;
     }
 }  
+
+
+
+
+
+
+
+
+383940414243
+class Solution {
+    public int[] productExceptSelf(int[] nums) 
+    {
+        int zero_count = 0;
+        int product = 1;
+        for(int i=0;i<nums.length;i++)
+        {
+            if(nums[i] == 0)
+            {
+                zero_count++;
+
+nums =
+
+[1,2,4,6]
+
+
+
+
+
+
+
+
+
