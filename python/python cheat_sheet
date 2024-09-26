@@ -31,3 +31,7 @@
 
 # 7. Sorting: 
 #    Use sorted() for a new sorted list, or .sort() to sort in place.
+
+8. char validation
+ord(char) -> int
+chr(int) -> char

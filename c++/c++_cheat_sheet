@@ -38,3 +38,13 @@ Examples:
 #include <string>
 #include <vector>
 using namespace std;
+
+8. char validation
+
+char c = 'A';
+int unicode = static_cast<int>(c); // ord() equivalent
+std::cout << unicode << std::endl; // Outputs 65
+
+int codePoint = 65;
+char c = static_cast<char>(codePoint); // chr() equivalent
+std::cout << c << std::endl; // Outputs 'A'

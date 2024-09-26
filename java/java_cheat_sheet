@@ -49,3 +49,13 @@
 
 8. Arrays
    int[] output = new int[length];
+
+9. char validation
+
+char c = 'A';
+int unicode = (int) c; // ord() equivalent
+System.out.println(unicode); // Outputs 65
+
+int codePoint = 65;
+char c = (char) codePoint; // chr() equivalent
+System.out.println(c); // Outputs 'A'
