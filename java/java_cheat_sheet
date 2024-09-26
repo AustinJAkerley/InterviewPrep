@@ -13,6 +13,7 @@
 
 4. HashSet (Sets): 
    Declare a HashSet using HashSet<Type>.
+   HashSet<Integer> numSet = new HashSet<Integer>();
    Use .add() to add an element.
    Use .remove() to remove an element.
    Use .contains() to check if an element exists.
@@ -48,4 +49,3 @@
 
 8. Arrays
    int[] output = new int[length];
-   
