@@ -28,6 +28,7 @@
    Use .push_back() to append elements.
    Use .pop_back() to remove the last element.
    for (auto& it : my_vec) { //Stuff }
+   vector<int> myVector = {1, 2, 3};  // vector with declared iniital values.
 
 6. Sorting: 
    Use sort(begin, end) from <algorithm> to sort vectors in place.

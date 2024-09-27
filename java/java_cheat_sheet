@@ -14,9 +14,10 @@
 4. HashSet (Sets): 
    Declare a HashSet using HashSet<Type>.
    HashSet<Integer> numSet = new HashSet<Integer>();
-   Use .add() to add an element.
+   Use .get() to access
+   Use .put() to add an element.
    Use .remove() to remove an element.
-   Use .contains() to check if an element exists.
+   Use .containsKey() to check if an element exists.
 
 5. ArrayList (Dynamic Arrays): 
    Declare an ArrayList using ArrayList<Type>.
@@ -38,6 +39,9 @@
    String sorted_str = new String(c);
 
 7. Strings and StringBuilder
+   Access a char in a string
+   myString.charAt(i)
+
    StringBuilder strBuilder = new StringBuilder();
    for (String str : strs) {
             strBuilder.append(s).append("\n");
@@ -59,3 +63,6 @@ System.out.println(unicode); // Outputs 65
 int codePoint = 65;
 char c = (char) codePoint; // chr() equivalent
 System.out.println(c); // Outputs 'A'
+
+10. You cannot return ONLY in a conditional, you must return outside of the condition as well.
+
