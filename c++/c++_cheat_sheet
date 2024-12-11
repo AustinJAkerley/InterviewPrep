@@ -25,6 +25,7 @@
 
 5. Vectors (Dynamic Arrays): 
    Declare vectors using vector<type>.
+   vector<type> vec_name = {ele, ele2, .....};
    Use .push_back() to append elements.
    Use .pop_back() to remove the last element.
    for (auto& it : my_vec) { //Stuff }
