@@ -28,10 +28,11 @@
 #    Append to a list with .append().
 #    Use .pop() to remove the last element.
 #    .sort() to sort the list in place, and .reverse() to reverse it.
+#    enumerate(nums)
 
 # 7. Sorting: 
 #    Use sorted() for a new sorted list, or .sort() to sort in place.
 
-8. char validation
-ord(char) -> int
-chr(int) -> char
+# 8. char validation
+# ord(char) -> int
+# chr(int) -> char
