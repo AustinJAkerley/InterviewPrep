@@ -15,6 +15,7 @@
 # myKeyValueMap.update({key:value})
 # myKeyValueMap.keys()
 # myKeyValueMap.values()
+# myKeyVauleMap.pop(ele) # To remove an element
 
 # 5. Sets
 # numSet = set(nums) # nums is a list of nums
